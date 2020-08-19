@@ -1,0 +1,88 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        
+        .header {
+            padding: 10px;
+            text-align: center;
+            background: #fa0404;
+            color: rgb(32, 31, 31);
+            height: 120px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .navbar {
+            flex: 15%;
+            background-color: #12b1f07e;
+            padding: 20px;
+        }
+        
+        .main {
+            flex: 85%;
+            background-color: white;
+        }
+        
+        .Block1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        
+        .Block2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        
+        #banner1 {
+            background-color: rgb(235, 148, 202);
+            height: 200px;
+            width: 550px;
+            padding: 10px;
+        }
+        
+        #banner2 {
+            background-color: olive;
+            height: 200px;
+            width: 550px;
+            padding: 10px;
+        }
+        
+        #block1 {
+            background-color: rgb(10, 14, 245);
+            height: 220px;
+            width: 360px;
+            padding: 10px;
+        }
+        
+        #block2 {
+            background-color: rgb(129, 245, 12);
+            height: 220px;
+            width: 360px;
+            padding: 10px;
+        }
+        
+        #block3 {
+            background-color: rgb(226, 135, 31);
+            height: 220px;
+            width: 360px;
+            padding: 10px;
+        }
+        
+        .footer {
+            padding: 5px;
+            text-align: center;
+            background: rgb(33, 36, 24);
+            color: aliceblue;
+        }
